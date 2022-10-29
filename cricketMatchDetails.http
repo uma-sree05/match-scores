@@ -1,0 +1,28 @@
+##GET ALL PLAYERS API 1
+GET http://localhost:3001/players/
+
+
+##GET SPECIFIC PLAYER API 2
+###
+GET http://localhost:3001/players/4
+
+##UPDATE PLAYERS
+###
+PUT http://localhost:3001/players/4
+
+###
+###GET SPECIFIC MATCH DETAILS
+GET http://localhost:3001/matches/18
+
+###
+###GET MATCHES OF PLAYER 
+GET http://localhost:3001/players/2/matches/
+
+###
+###GET LIST OF PLAYERS
+# GET http://localhost:3001/matches/2/players/
+
+GET http://localhost:3001/matches/3/players/
+
+###GET SCORES
+GET http://localhost:3001/players/2/playerScores/
